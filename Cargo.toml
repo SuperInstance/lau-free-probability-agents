@@ -1,0 +1,18 @@
+[package]
+name = "lau-free-probability-agents"
+version = "0.1.0"
+edition = "2021"
+description = "Voiculescu's free probability theory applied to agent systems — free convolution, semicircle law, Marchenko-Pastur law, R-transform, S-transform, free cumulants, free entropy, and asymptotic freeness for fleet belief matrices"
+license = "MIT"
+repository = "https://github.com/SuperInstance/lau-free-probability-agents"
+keywords = ["free-probability", "voiculescu", "random-matrices", "agent-systems", "eigenvalues"]
+categories = ["mathematics", "science"]
+
+[dependencies]
+nalgebra = "0.33"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+num-complex = "0.4"
+
+[dev-dependencies]
+approx = "0.5"
